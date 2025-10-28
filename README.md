@@ -20,22 +20,22 @@ The site aims to empower individuals with clear, accessible information and high
 - **List organisations and charities** that support workers from ethnic minority backgrounds and other underrepresented groups  
 - Share **facts, figures, and statistics** about diversity and inclusion in industries such as tech and digital  
 - Offer a **visually engaging but accessible** static experience with no sign-in or tracking required  
-- Represent diversity through **inclusive design and storytelling**
+- Represent diversity through **inclusive design and facts**
 - Demonstrate how AI and technology can **boost and fill skill gaps** that people from other backgrounds may face
 
 ---
 
 ## 👥 User Stories
 
-1. **As a young Black professional**, I want to find reliable information about my rights at work so I can advocate for myself and understand the protections available.  
+1. **As a young Black/mixed race professional**, I want to find reliable information about my rights at work so I can advocate for myself and understand the protections available.  
 
 2. **As a mixed-heritage creative entering tech**, I want to see real statistics about diversity in UK workplaces so I can understand where representation is improving and where it’s still needed.  
 
-3. **As an HR manager**, I want to find charities and community organisations that promote inclusion so I can connect my company with trusted partners and resources.  
+3. **As an HR manager**, I want to find charities and community organisations that promote inclusion so I can connect my company with trusted partners and resources, to help awareness, consideration and respect to others who may be in the workforce.  
 
-4. **As an immigrant worker**, I want clear, jargon-free explanations of workers’ rights so that I can easily understand them even if English isn’t my first language.  
+4. **As a worker with english not as a first language**, I want clear, jargon-free explanations of workers’ rights so that I can easily understand them even if English isn’t my first language.  
 
-5. **As a student preparing to enter the workforce**, I want to learn about support networks and inspiring stories from people who look like me in my chosen industry.  
+5. **As a student preparing to enter the workforce**, I want to learn about support networks, organisations and facts from people like me and others I may meet in my chosen industry.  
 
 6. **As a community advocate**, I want to share a single link that helps others access rights information, support organisations, and data about representation across UK workplaces.  
 
@@ -73,4 +73,4 @@ Designed with high contrast and readable typography
 
 Uses alt text and semantic HTML
 
-Represents diverse voices and lived experiences in its examples and data
+Represents diverse voices and lived experiences in its information, resources and data
