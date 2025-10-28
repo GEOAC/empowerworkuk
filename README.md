@@ -49,7 +49,7 @@ A single mobile friendly scrollable site with anchor jump links to different sec
 
 - **HTML5** – for structure and semantic accessibility  
 - **CSS3** – for styling and responsive design  
-- **JavaScript (Vanilla)** – for simple interactivity (e.g., tabs, filters, charts)  
+- **Bootstrap** – for assets and responsive design  
 - **Data Sources:** GOV.UK, Office for National Statistics (ONS), and public reports  
 - **Hosting:** GitHub Pages  
 
