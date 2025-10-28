@@ -45,6 +45,10 @@ The site aims to empower individuals with clear, accessible information and high
 
 A single mobile friendly scrollable site with anchor jump links to different sections
 
+## 📐 Wireframes
+
+TBA
+
 ## 🛠️ Tech Stack
 
 - **HTML5** – for structure and semantic accessibility  
