@@ -31,7 +31,7 @@ The site aims to empower individuals with clear, accessible information and high
 
 2. **As a mixed-heritage creative entering tech**, I want to see real statistics about diversity in UK workplaces so I can understand where representation is improving and where it’s still needed.  
 
-3. **As an HR manager**, I want to find charities and community organisations that promote inclusion so I can connect my company with trusted partners and resources, to help awareness, consideration and respect to others who may be in the workforce.  
+3. **As an HR manager**, I want to find charities and community organisations that promote inclusion so I can connect my company with trusted partners and resources, to help awareness, consideration and respect to others who may be in the workforce and difficulties that others may face based unique to their characteristics.
 
 4. **As a worker with english not as a first language**, I want clear, jargon-free explanations of workers’ rights so that I can easily understand them even if English isn’t my first language.  
 
