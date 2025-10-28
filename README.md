@@ -49,7 +49,7 @@ A single mobile friendly scrollable site with anchor jump links to different sec
 
 ## 📐 Wireframes
 
-![Mobile wireframe](images\wireframe mobile.PNG)
+![Mobile wireframe](images\wireframe-mobile.PNG)
 
 ---
 
