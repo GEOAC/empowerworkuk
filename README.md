@@ -45,9 +45,13 @@ The site aims to empower individuals with clear, accessible information and high
 
 A single mobile friendly scrollable site with anchor jump links to different sections
 
+---
+
 ## 📐 Wireframes
 
-TBA
+![Mobile wireframe](images\wireframe mobile.PNG)
+
+---
 
 ## 🛠️ Tech Stack
 
