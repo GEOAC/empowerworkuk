@@ -1,3 +1,10 @@
+# Quick links
+
+- [Github Page](https://geoac.github.io/empowerworkuk/) 
+- [Kanban Board](https://github.com/users/GEOAC/projects/2/views/1)
+
+---
+
 # EmpowerWork UK 🌍
 
 *A static website that promotes awareness of UK workers’ rights, highlights organisations supporting underrepresented communities, and shares facts and statistics about diversity across industries such as tech.*
