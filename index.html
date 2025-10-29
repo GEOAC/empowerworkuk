@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EmpowerWork UK – Promoting workers’ rights and inclusion across UK industries." />
+  <title>EmpowerWork UK 🌍</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fafafa;
+      color: #222;
+    }
+
+    section {
+      padding: 80px 0;
+      padding-inline: 1.5rem;
+    }
+
+    .bg-alt { background-color: #f2f2f2; }
+
+    /* Navbar */
+    .navbar { background-color: #111; }
+    .navbar a { color: #fff !important; }
+    .navbar-toggler { border: none; }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255,0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/ %3e%3c/svg%3e");
+    }
+
+    .navbar-nav .nav-link {
+      padding: 1rem 0.75rem;
+      font-size: 1.125rem;
+      font-weight: bold;
+      display: inline-block;
+      padding-block: 0.5rem; /* large enough for motor impaired */
+    }
+
+    /* Buttons */
+    .btn-primary {
+      background-color: #0057b8;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.2rem; /* ~16pt for AAA contrast */
+      min-height: 50px;  /* AAA target height */
+      min-width: 160px;  /* AAA target width */
+      margin: 0.5rem 0.5rem 0.5rem 0;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #111, #333);
+      color: #fff;
+      padding: 120px 20px;
+      text-align: center;
+    }
+
+    .hero h1 { font-size: 2.5rem; }
+
+    /* External links large enough & high contrast */
+    .large-link {
+      display: inline-block;
+      padding: 0.75rem 1rem;   /* ensures touch target ≥44px */
+      font-size: 1.125rem;     /* ~18px */
+      font-weight: bold;
+      line-height: 1.4;
+      color: #003366;          /* high contrast on #FAFAFA */
+    }
+
+    footer {
+      background-color: #111;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    a.visually-hidden-focusable:focus {
+      position: static;
+      width: auto;
+      height: auto;
+      margin: 0;
+      padding: 1rem;
+      background: #000;
+      color: #fff;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Skip to main content -->
+  <a href="#rights" class="visually-hidden-focusable">Skip to main content</a>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold large-link" href="#home">EmpowerWork UK</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#rights" aria-label="Go to Workers’ Rights section">Workers’ Rights</a></li>
+          <li class="nav-item"><a class="nav-link" href="#organisations" aria-label="Go to Organisations & Support section">Organisations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#diversity" aria-label="Go to Diversity & Data section">Diversity & Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero d-flex flex-column justify-content-center align-items-center">
+    <h1>EmpowerWork UK 🌍</h1>
+    <p class="lead mt-3">Empowering everyone — including Black and mixed-heritage professionals — with knowledge about their rights and opportunities in UK workspaces.</p>
+    
+    <!-- Semantic list for hero buttons -->
+    <ul class="d-flex flex-wrap justify-content-center mt-4 list-unstyled">
+      <li class="me-3 mb-2">
+        <a href="#rights" class="btn btn-primary" aria-label="Learn your rights section">Learn your rights</a>
+      </li>
+      <li class="me-3 mb-2">
+        <a href="#organisations" class="btn btn-primary" aria-label="Explore organisations section">Explore organisations</a>
+      </li>
+      <li class="me-3 mb-2">
+        <a href="#diversity" class="btn btn-primary" aria-label="Explore diversity and data section">Explore diversity & data</a>
+      </li>
+    </ul>
+  </section>
+
+  <main>
+    <!-- Workers’ Rights -->
+    <section id="rights">
+      <div class="container">
+        <h2 class="text-center mb-4">Workers’ Rights</h2>
+        <p class="lead text-center">Know your rights and understand how UK laws protect against workplace discrimination and unfair treatment.</p>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <h4>Key Legal Protections</h4>
+            <ul>
+              <li>Equality Act 2010 protects people from race and ethnic discrimination, including mixed-heritage workers.</li>
+              <li>Right to fair pay and working conditions.</li>
+              <li>Protection against harassment and unfair dismissal.</li>
+              <li>Entitlement to holiday, sick pay, and safe workplaces.</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Useful Resources</h4>
+            <ul>
+              <li><a href="https://www.gov.uk/your-employment-rights" target="_blank" rel="noopener noreferrer" class="large-link" aria-label="GOV.UK Employment Rights page, opens in new tab">GOV.UK – Employment Rights</a></li>
+              <li><a href="https://www.acas.org.uk" target="_blank" rel="noopener noreferrer" class="large-link" aria-label="ACAS Workplace Advice, opens in new tab">ACAS – Workplace Advice</a></li>
+              <li><a href="https://www.citizensadvice.org.uk/work" target="_blank" rel="noopener noreferrer" class="large-link" aria-label="Citizens Advice Work section, opens in new tab">Citizens Advice – Work</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organisations & Support -->
+    <section id="organisations" class="bg-alt">
+      <div class="container">
+        <h2 class="text-center mb-4">Organisations & Support</h2>
+        <p class="lead text-center">Find support networks and equality-focused organisations helping UK workers thrive.</p>
+
+        <div class="row mt-5 g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Runnymede Trust</h5>
+                <p class="card-text">Research and advocacy for racial equality in the UK.</p>
+                <a href="https://www.runnymedetrust.org/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Visit Runnymede Trust website, opens in new tab">Visit Runnymede Trust</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Black Thrive</h5>
+                <p class="card-text">Improving outcomes for Black communities across health, wellbeing, and employment.</p>
+                <a href="https://www.blackthrive.org.uk/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Visit Black Thrive website, opens in new tab">Visit Black Thrive</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Tech Talent Charter</h5>
+                <p class="card-text">Driving inclusion and accountability across the UK’s tech industry.</p>
+                <a href="https://www.techtalentcharter.co.uk/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Visit Tech Talent Charter website, opens in new tab">Visit Tech Talent Charter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diversity & Data -->
+    <section id="diversity">
+      <div class="container">
+        <h2 class="text-center mb-4">Diversity & Employment Data</h2>
+        <p class="lead text-center">Key figures on representation across UK industries, including Black and mixed-heritage workers.</p>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <h4>Employment Highlights</h4>
+            <ul>
+              <li>Overall UK employment: 76%</li>
+              <li>Black workers: 69%</li>
+              <li>Mixed or Multiple ethnic groups: ~74%</li>
+              <li>Permanent employment for Black workers: 88%</li>
+              <li>Average hourly pay gap (Black vs White workers): ~£0.80 less</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Representation in Tech</h4>
+            <p>Representation among Black and mixed-heritage professionals is improving but still below national averages.</p>
+            <a href="https://www.ethnicity-facts-figures.service.gov.uk/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="View Ethnicity Facts and Figures data source, opens in new tab">View Data Source</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>© 2025 EmpowerWork UK — Promoting Fairness, Inclusion & Representation</p>
+      <p>
+        <a href="#home" class="text-white text-decoration-underline me-3" aria-label="Back to top">Back to top</a>
+        <a href="https://www.facebook.com/" class="text-white text-decoration-underline me-3" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page, opens in new tab">Facebook</a>
+        <a href="https://www.instagram.com/" class="text-white text-decoration-underline me-3" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram page, opens in new tab">Instagram</a>
+        <a href="https://www.linkedin.com/" class="text-white text-decoration-underline" target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn page, opens in new tab">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
